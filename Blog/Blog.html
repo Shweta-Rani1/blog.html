@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 60px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  display: flex;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row, .navbar {   
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<!-- Note -->
+<div style="background:rgb(228, 148, 0);padding:5px">
+  <h4 style="text-align:center"> Blog page!!</h4>
+</div>
+
+<!-- Header -->
+  
+  <div class="header">
+  <h1>So, here is My First BLOG!!!</h1>
+  <p>With a <b>flexible</b> layout.</p>
+</div>
+
+<!-- Navigation Bar -->
+<div class="navbar">
+  <a href="#"><b>Home</b></a>
+ <a href="https://www.facebook.com/khushi.raj.7355079"><b>ABOUT</b></a>
+  <a href="https://www.instagram.com/__sublime__shweta__?r=nametag"><b>CONNECT</b></a>
+  <a href="https://github.com"><b>GIT</b></a>
+</div>
+
+<!-- The flexible grid (content) -->
+<div class="row">
+  <div class="side">
+   <h2><b><u>About Me</u></b></h2>
+    <h5>It's SHWETA</h5>
+    <div class="fakeimg" style="height:200px;width:200px"><img style="height:200px;width:200px;" src="Shweta3.jpg"></div><br>
+    <p style="color:rgb(20, 200, 255)"><b>Let's know something about ME.</b></p>
+    <h3></h3>
+    <p><i>First of all from where I belong to!!<br>
+      So here it is-</i></p>
+    <div class="fakeimg" style="height:210px;width:300px"><img style="height:180px;width:250px;" src="a.jpg"></div><br>
+    <p><i>This is my lovely School MK DAV Public School</i></p>
+    <div class="fakeimg" style="height:210px;width:300px"><img style="height:180px;width:250px;" src="b.jpg"></div><br>
+    <p><i>Here is the beauty of my city!!</i></p>
+    <div class="fakeimg" style="height:250px;width:300px"><img style="height:190px;width:280px;" src="c.jpg"><br></div>
+    <p>That's all about me....</p>
+  </div>
+  <div class="main">
+    <h2><b><u><i><p style="color:rgb(255, 21, 207)">Today's Biggest Pandemic</style></i></u></b></h2>
+    <h4><b><i><u>CORONA VIRUS</u></i></b></h4>
+    <p>COVID-19 is the disease caused by a new coronavirus called SARS-CoV-2.  WHO first learned of this new virus on 31 December 2019, following a report of a cluster of cases of ‘viral pneumonia’ in Wuhan, People’s Republic of China.</p>
+    
+    <div class="fakeimg" style="height:200px;width:400"><img style="height:160px;width:800px;" src="corona.jpg"></div><br>
+    <div class="fakeimg" style="height:200px;width:400"><img style="height:210px;width:800px;" src="co.jpg"></div>
+     <p>Coronaviruses (CoV) are a large family of viruses that cause illness ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS-CoV) and Severe Acute Respiratory Syndrome (SARS-CoV). A novel coronavirus (nCoV) is a new strain that has not been previously identified in humans.
+
+        Coronaviruses are zoonotic, meaning they are transmitted between animals and people. <br>Detailed investigations found that SARS-CoV was transmitted from civet cats to humans and MERS-CoV from dromedary camels to humans. Several known coronaviruses are circulating in animals that have not yet infected humans.
+        
+        Common signs of infection include respiratory symptoms, fever, cough, shortness of breath and breathing difficulties.<br> In more severe cases, infection can cause pneumonia, severe acute respiratory syndrome, kidney failure and even death.</p>
+    <h2><u><i><p style="color:rgb(255, 21, 20)">PRECAUTIONS</style</p></i></u></h2>
+    <h5><u><i>FOR COVID-19</i></u></h5>
+    <div class="fakeimg" style="height:200px;width:400"><img style="height:180px;width:800px;" src="Precaution.jpg"></div>
+ <p>Precautions that must be taken during this pendemic.</p>
+    <p>To prevent infection and to slow transmission of COVID-19, do the following:<br>
+       - Wash your hands regularly with soap and water, or clean them with alcohol-based hand rub.<br>
+       - Maintain at least 1 metre distance between you and people coughing or sneezing.<br>
+       - Avoid touching your face.<br>
+       - Cover your mouth and nose when coughing or sneezing.<br>
+      - Refrain from smoking and other activities that weaken the lungs.<br>
+       -Practice physical distancing by avoiding unnecessary travel and staying away from large groups of people.<br><br><br>
+     <i><b>STAY HOME, STAY SAFE!!</b></i></p></div>
+    
+</div>
+
+<!-- Footer -->
+<div class="footer">
+ <h3><p>contact via social media for contributions!</p></h3>
+    <h2><p style="float:right">@copyright</p></h2>
+</div>
+
+</body>
+</html>
